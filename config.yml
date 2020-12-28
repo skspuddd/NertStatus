@@ -39,11 +39,11 @@ params:
     - name: Frontend
       description: Frontend Applications, such as the web apps.
       untitled: false
-      closed: true
+      closed: false
     - name: Backend
       description: Backend Applications, such as the CDN.
       closed: false
-      untitled: true
+      untitled: false
   description: We continuously monitor the status of Nertivia's services and if
     there are any interruptions, a note will be posted here.
   enableCustomHTML: true
