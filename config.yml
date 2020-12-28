@@ -38,7 +38,7 @@ params:
   categories:
     - name: Frontend
       description: Frontend Applications, such as the web apps.
-      untitled: true
+      untitled: false
       closed: true
     - name: Backend
       description: Backend Applications, such as the CDN.
