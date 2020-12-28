@@ -7,14 +7,14 @@ params:
   shortDateFormat: 15:04 — Jan 2
   down: "#e60000"
   systems:
-    - category: Frontend
-      name: Nertivia Stable Web App
+    - category: Web Applications
+      name: Stable
       description: Application hosted at https://nertivia.net (stable).
-    - name: Nertivia Beta Web App
-      category: Frontend
+    - name: Beta
+      category: Web Applications
       description: Application hosted at https://beta.nertivia.net (beta).
-    - name: Nertivia CDN
-      category: Backend
+    - name: CDN
+      category: Backend Systems
       description: Server hosting images uploaded to Nertivia.
   dateFormat: January 2, 2006 at 3:04 PM
   brand: "#0a0c0f"
@@ -36,14 +36,10 @@ params:
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: Frontend
-      description: Frontend Applications, such as the web apps.
-      untitled: false
-      closed: false
-    - name: Backend
-      description: Backend Applications, such as the CDN.
-      closed: false
-      untitled: false
+    - name: Web Applications
+      description: Web applications used to access Nertivia.
+    - name: Backend Systems
+      description: Backend systems that help Nertivia operate.
   description: We continuously monitor the status of Nertivia's services and if
     there are any interruptions, a note will be posted here.
   enableCustomHTML: true
